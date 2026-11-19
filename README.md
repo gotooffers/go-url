@@ -3,7 +3,7 @@
 This repository hosts a static referrer-stripping gateway built with strict `no-referrer` policies so destination websites cannot read the originating traffic source (`Referer` header or `document.referrer`).
 
 ## Configuration Summary
-- **Masking Mode**: `double-hop`
+- **Masking Mode**: `hash-gateway`
 - **Default Destination**: `https://example.com/landing`
 - **Strip Tracking Params**: Enabled (`utm_*`, `fbclid`, `gclid`, `ref`, etc.)
 - **Allowed Domains**: Any valid http/https domain
